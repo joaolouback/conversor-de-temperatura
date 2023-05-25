@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&family=Rubik:wght@500&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins';
+    
+}
+
+body{
+    height: 100vh;
+    margin: 0;
+}
+
+h1{
+    color: #ffff;
+    font-size: 52px;
+    
+} 
+
+
+input[type='number']::placeholder {
+    color: #2c2c2c;
+    font-size: 15px;
+    text-align: center;
+    
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+
+.container{
+    background-color: #1c1c1c;
+    display: inline-flex;
+    padding: 3em;
+    border-radius: 20px;
+    flex-direction: column;
+    align-items: center;
+    width: 58em;
+    height: 60vh;
+    
+}
+
+.interior{
+    display: flex;
+    margin-top: 6em;
+}
+
+label{
+    color: #ffff;
+    margin-right: 30px;
+    text-align:center;
+    line-height:150%;
+    font-size:.90em;
+    
+}
+
+section{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    height: 100vh;
+}
+
+.bloco1{
+    
+    font-size: 30px;
+    display: flex;
+    margin-right: 22px;
+    letter-spacing: 1.7px;
+}
+
+.bloco1 label {
+    margin-right: 0.5em;
+}
+
+button {
+    width: 400px;
+    height: 33em;
+    border-radius: 20px;
+    font-size: 1.5em;
+    margin-top: 2em;
+    background-color: #333333;
+    color: #fff;
+    border: none;
+}
+
+button:hover {
+    cursor: pointer;
+    background-color: #2b9c47;
+    color: #fff;
+}
+
+p{
+    width: 40em;
+    height: 58em;
+    background-color: #585555;
+    border-radius: 20px;
+    color: rgb(255, 255, 255);
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin-top: 2em;
+    font-size: 18px;
+}
+select{
+    width: 150px;
+}
+
+

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Conversor de Temperaturas</title>
+ <link rel="stylesheet" href="index.css">
+
+</head>
+<body>
+    
+    
+    <section>
+        <div class="container">
+    <h1> Conversor de Temperaturas</h1>
+    <div class="interior">
+        <div class="bloco1">
+                    <label for="temperatura">Temperatura:</label>
+                    <input type="number" id="temperatura" placeholder="Insira a temperatura">
+        </div>
+                    <br>
+         <div class="bloco1">
+                    <label for="origem">De:</label>
+                    <select id="origem">
+                        <option value="celsius">Celsius</option>
+                        <option value="fahrenheit">Fahrenheit</option>
+                        <option value="kelvin">Kelvin</option>
+                    </select>
+        </div>
+                    <br>
+        <div class="bloco1">
+                    <label for="destino">Para:</label>
+                    <select id="destino">
+                        <option value="celsius">Celsius</option>
+                        <option value="fahrenheit">Fahrenheit</option>
+                        <option value="kelvin">Kelvin</option>
+                    </select>
+        </div>
+    </div>
+                    <br>
+                    <button onclick="converterTemperatura()">Converter</button>
+                    <br>
+
+                    <p id="resultado"></p>
+                </div>
+ </section>
+
+    <script src="index.js">
+
+    </script>
+</body>
+</html>
